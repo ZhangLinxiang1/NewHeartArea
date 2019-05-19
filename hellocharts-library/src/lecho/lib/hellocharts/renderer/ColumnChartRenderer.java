@@ -342,7 +342,7 @@ public class ColumnChartRenderer extends AbstractChartRenderer {
      */
     private void drawSubcolumn(Canvas canvas, Column column, SubcolumnValue columnValue, boolean isStacked) {
         canvas.drawRect(drawRect, columnPaint);
-        Log.e("drawRect params", drawRect.left + " " + drawRect.top + " " + drawRect.right + " " + drawRect.bottom);
+        Log.i("drawRect params", drawRect.left + " " + drawRect.top + " " + drawRect.right + " " + drawRect.bottom);
         if (column.hasLabels()) {
             drawLabel(canvas, column, columnValue, isStacked, labelOffset);
         }
